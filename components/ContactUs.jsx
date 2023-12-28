@@ -9,7 +9,7 @@ export default function ContactUs() {
                         id="name"
                         name="name"
                         required
-                        class="w-full mt-4 px-3 py-2 outline-none  rounded-sm"
+                        className="w-full mt-4 px-3 py-2 outline-none  rounded-sm"
                         placeholder="Your Full Name"
                     />
                     <input
@@ -17,7 +17,7 @@ export default function ContactUs() {
                         id="email"
                         name="email"
                         required
-                        class="w-full mt-4 px-3 py-2 outline-none rounded-sm"
+                        className="w-full mt-4 px-3 py-2 outline-none rounded-sm"
                         placeholder="Your Email"
                     />
                     <textarea
@@ -25,12 +25,12 @@ export default function ContactUs() {
                         name="message"
                         rows="4"
                         required
-                        class="w-full mt-4 px-3 py-2 outline-none rounded-sm"
+                        className="w-full mt-4 px-3 py-2 outline-none rounded-sm"
                         placeholder="Write your message..."
                     ></textarea>
                     <button
                         type="submit"
-                        class="px-10 rounded-md py-2 text-white text-lg font-medium bg-blue-500 text-center mt-6 "
+                        className="px-10 rounded-md py-2 text-white text-lg font-medium bg-blue-500 text-center mt-6 "
                     >
                         Send Message
                     </button>
