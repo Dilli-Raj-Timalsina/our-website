@@ -8,11 +8,10 @@ export default function ServiceCard() {
                     className="w-24 h-fit rounded-full p-2 bg-slate-100"
                 />
                 <h1 className="text-xl font-semibold text-gray-800 pt-2 pb-1 text-nowrap">
-                    Graphics Design
+                    Digital Marketing
                 </h1>
                 <p className="text-sm text-center">
-                    Lorem ipsum dolor sit amet consectetur. Massa fringilla
-                    lectus ligula
+                    SEO, social media, email—maximize visibility, reach more customers!
                 </p>
             </section>
             <section className="  md:w-56 md:h-64 w-48 h-60 bg-white p-2 shadow-lg flex z-10 flex-col items-center  gap-y-2 gap-x-2">
@@ -25,8 +24,8 @@ export default function ServiceCard() {
                     Web Development
                 </h1>
                 <p className="text-sm text-center">
-                    Lorem ipsum dolor sit amet consectetur. Massa fringilla
-                    lectus ligula
+                    Tailored websites from design to maintenance. Your unique online
+                    presence .
                 </p>
             </section>
             <section className=" md:w-56 md:h-64 w-48 h-60 bg-white p-2 shadow-lg flex z-10 flex-col items-center  gap-y-2 gap-x-2">
@@ -36,11 +35,11 @@ export default function ServiceCard() {
                     className="w-24 h-fit rounded-full p-2 bg-slate-300"
                 />
                 <h1 className="text-xl font-semibold text-gray-800 pt-2 pb-1 text-nowrap">
-                    UI/UX design
+                    Graphics Design
                 </h1>
                 <p className="text-sm text-center">
-                    Lorem ipsum dolor sit amet consectetur. Massa fringilla
-                    lectus ligula
+                    Our skilled graphic team crafts eye-catching designs for websites,
+                    brochures, cards .
                 </p>
             </section>
             <section className=" md:w-56 md:h-64 w-48 h-60 bg-white p-2 shadow-lg flex z-10 flex-col items-center  gap-y-2 gap-x-2">
@@ -53,8 +52,7 @@ export default function ServiceCard() {
                     App Development
                 </h1>
                 <p className="text-sm text-center">
-                    Lorem ipsum dolor sit amet consectetur. Massa fringilla
-                    lectus ligula
+                    We ace mobile app dev for Android/iOS, optimized for all devices .
                 </p>
             </section>
         </div>

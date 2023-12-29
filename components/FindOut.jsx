@@ -6,17 +6,26 @@ export default function FindOut() {
             </h1>
             <br />
             <p className=" text-base text-gray-500 mt-2 max-w-lg">
-                Certainly, leveraging technology for positive impact is a
-                commendable goal. There are various ways technology can be
-                applied to address global challenges and contribute to making
-                the world a better place. Here are some areas where technology
-                can play a transformative role
+                Explore the future with our cutting-edge AI-powered tools that supercharge
+                your business. From seamless mobile{" "}
+                <span className="font-semibold text-blue-400">App development</span> (both{" "}
+                <span className="font-semibold text-blue-400">Android</span> and{" "}
+                <span className="font-semibold text-blue-400">IOS</span>) to robust
+                desktop applications, software wizardry, and stunning{" "}
+                <span className="font-semibold text-blue-400">website development</span>,
+                we've got it all under one virtual roof.
             </p>
             <br />
             <p className=" text-base text-gray-500 max-w-lg">
-                applied to address global challenges and contribute to making
-                the world a better place. Here are some areas where technology
-                can play a transformative role
+                Immerse yourself in our world of creativity, where our talented team
+                crafts eye-catching graphics and propels your brand into the digital
+                spotlight. Elevate your online presence with our{" "}
+                <span className="font-semibold text-blue-400">digital marketing</span> and{" "}
+                <span className="font-semibold text-blue-400">SEO </span>
+                expertise, tailored for{" "}
+                <span className="font-semibold text-blue-400">fintech</span>,{" "}
+                <span className="font-semibold text-blue-400">healthcare</span>, and{" "}
+                <span className="font-semibold text-blue-400">e-commerce</span> domains.
             </p>
             <br />
             <div className="relative md:mt-20 mt-10 ">

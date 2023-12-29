@@ -12,36 +12,36 @@ export default function TestimonialBox() {
             <h1 className="text-3xl text-gray-900 font-bold py-8  z-10 md:hidden">
                 Our Client Says !
             </h1>
-            <div className=" flex flex-row justify-center gap-14 items-center z-10 overflow-x-auto hide-scroll-bar">
-                <div className=" text-center font-medium bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center ">
+            <div className=" flex flex-row justify-center gap-14 items-center z-10 overflow-x-auto hide-scroll-bar font-medium">
+                <div className=" text-center  bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80 ">
                     <img src="/quote.svg" alt="" className="w-10 h-fit " />
                     <p className="  ">
-                        Lorem ipsum dolor sit amet consectetur. Pellentesque tellus
-                        integer rutrum in ut a. Suspendisse aenean sit sapien cursus. Quis
-                        ac neque sed nunc leo eget faucibus est tellus.
+                        Highly Capable Developer Delivers Robust E- commerce Solution .
+                        The experience of working with them has been largely positive, and
+                        the outcomes have been tangible.
                     </p>
                     <img src="/photoicon.png" alt="" className="w-8 h-fit mt-6" />
-                    <p>Herlin mirza</p>
+                    <p>Ram Shah</p>
                 </div>
-                <div className=" text-center bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center ">
+                <div className=" text-center  bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center min-h-80">
                     <img src="/quote.svg" alt="" className="w-10 h-fit " />
                     <p className="  ">
-                        Lorem ipsum dolor sit amet consectetur. Pellentesque tellus
-                        integer rutrum in ut a. Suspendisse aenean sit sapien cursus. Quis
-                        ac neque sed nunc leo eget faucibus est tellus.
+                        A game-changer! From the moment I engaged with their services, I
+                        knew I was in good hands. Their team's professionalism and
+                        friendliness made the enti ...
                     </p>
                     <img src="/photoicon.png" alt="" className="w-8 h-fit mt-6" />
-                    <p>Herlin mirza</p>
+                    <p>Gopi shah</p>
                 </div>
-                <div className=" text-center bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center ">
+                <div className=" text-center bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80">
                     <img src="/quote.svg" alt="" className="w-10 h-fit " />
                     <p className="  ">
-                        Lorem ipsum dolor sit amet consectetur. Pellentesque tellus
-                        integer rutrum in ut a. Suspendisse aenean sit sapien cursus. Quis
-                        ac neque sed nunc leo eget faucibus est tellus.
+                        Absolutely thrilled with the software company's service! Seamless,
+                        intuitive, and tailored to our needs. Their tech prowess and
+                        attention to detail elevated our online store.
                     </p>
                     <img src="/photoicon.png" alt="" className="w-8 h-fit mt-6" />
-                    <p>Herlin mirza</p>
+                    <p>Manish Paul</p>
                 </div>
             </div>
             <div className=" flex gap-2 pt-14 items-center justify-center">
