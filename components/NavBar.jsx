@@ -32,13 +32,13 @@ export default function NavBar() {
                     <div className="flex-none hidden lg:block">
                         <ul className=" text-white menu flex gap-6 items-center menu-horizontal">
                             {/* Navbar menu content here */}
-                            <li className="cursor-pointer">
+                            <li className="cursor-pointer hover:text-slate-400">
                                 <a>About us</a>
                             </li>
-                            <li className=" cursor-pointer">
+                            <li className=" cursor-pointer hover:text-slate-400">
                                 <Link href="/referral">Referal</Link>
                             </li>
-                            <li className=" cursor-pointer">
+                            <li className=" cursor-pointer hover:text-slate-400">
                                 <Link
                                     activeClass="active"
                                     to="contact"
@@ -50,7 +50,7 @@ export default function NavBar() {
                                     Contact Us
                                 </Link>
                             </li>
-                            <li className=" cursor-pointer">
+                            <li className=" cursor-pointer hover:text-slate-400">
                                 <Link
                                     activeClass="active"
                                     to="services"
@@ -62,7 +62,7 @@ export default function NavBar() {
                                     Our Services
                                 </Link>
                             </li>
-                            <li className="  cursor-pointer rounded-sm  py-1 px-4 border  border-cyan-600 text-cyan-300 text-center">
+                            <li className="  cursor-pointer rounded-sm  py-1 px-4 border  border-cyan-600 text-cyan-300 text-center hover:border-cyan-400">
                                 <Link
                                     activeClass="active"
                                     to="services"
@@ -70,7 +70,7 @@ export default function NavBar() {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer"
+                                    className="cursor-pointer "
                                 >
                                     Explore Our Services
                                 </Link>

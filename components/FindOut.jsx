@@ -36,19 +36,19 @@ export default function FindOut() {
                 />
                 <div className="absolute top-0 md:top-3 md:left-8 flex flex-row  divide-x-2 divide-white md:text-xs text-sm text-nowrap">
                     <div className="flex flex-col items-center px-2 md:px-10 ">
-                        <div className="text-2xl text-white">10+</div>
+                        <div className="text-2xl text-white">5+</div>
                         <div className=" text-slate-400">Projects done</div>
                     </div>
 
                     <div className="flex flex-col items-center px-2 md:px-10">
-                        <div className="text-2xl text-white">20+</div>
+                        <div className="text-2xl text-white">5+</div>
                         <div className=" text-slate-400 text-nowrap">
                             Worked With Companies
                         </div>
                     </div>
 
                     <div className="flex flex-col items-center px-2 md:px-10">
-                        <div className="text-2xl text-white">10+</div>
+                        <div className="text-2xl text-white">5+</div>
                         <div className=" text-slate-400">Satisfied Clients</div>
                     </div>
                 </div>

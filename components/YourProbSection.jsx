@@ -14,7 +14,7 @@ export default function YourProbSection() {
                     futuristic ecommerce platforms and auxiliary tech services , just
                     bring your idea and accelerate your business with our tech suite .
                 </p>
-                <button className="cursor-pointer   py-3 px-6  text-white text-center bg-cyan-600 w-fit mt-6 text-base">
+                <button className="cursor-pointer   py-3 px-6  text-white text-center bg-cyan-600 w-fit mt-6 text-base hover:bg-cyan-500">
                     <Link
                         activeClass="active"
                         to="whyus"

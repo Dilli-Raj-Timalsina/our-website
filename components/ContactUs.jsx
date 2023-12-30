@@ -50,17 +50,15 @@ export default function ContactUs() {
                     </li>
                     <li className="flex items-center gap-4 ">
                         <img src="/locationicon.svg" alt="" className="w-5 h-5" />
-                        <p className="text-lg text-gray-200">
-                            800 N King Street Suite 304 1198 Wilmington, US
-                        </p>
+                        <p className="text-lg text-gray-200">Bagmati Kathmandu , Nepal</p>
                     </li>
                     <li className="flex items-center gap-4 ">
                         <img src="/messageicon.svg" alt="" className="w-5 h-5" />
-                        <p className="text-lg text-gray-200">ecomsuite@gmail.com</p>
+                        <p className="text-lg text-gray-200">ecomsuite78@gmail.com</p>
                     </li>
                     <li className="flex items-center gap-4 ">
                         <img src="/phoneicon.svg" alt="" className="w-5 h-5" />
-                        <p className="text-lg text-gray-200">+1232878927</p>
+                        <p className="text-lg text-gray-200">+977-9817788454</p>
                     </li>
                 </ul>
             </div>

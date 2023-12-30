@@ -20,7 +20,9 @@ export default function TestimonialBox() {
                         The experience of working with them has been largely positive, and
                         the outcomes have been tangible.
                     </p>
-                    <img src="/photoicon.png" alt="" className="w-8 h-fit mt-6" />
+
+                    <img src="/mama.jpg" alt="" className="w-12 h-12 mt-6 rounded-full" />
+
                     <p>Ram Shah</p>
                 </div>
                 <div className=" text-center  bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center min-h-80">
@@ -30,7 +32,7 @@ export default function TestimonialBox() {
                         knew I was in good hands. Their team's professionalism and
                         friendliness made the enti ...
                     </p>
-                    <img src="/photoicon.png" alt="" className="w-8 h-fit mt-6" />
+                    <img src="/gopi.jpg" alt="" className="w-12 h-12 mt-6 rounded-full" />
                     <p>Gopi shah</p>
                 </div>
                 <div className=" text-center bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80">
@@ -40,7 +42,11 @@ export default function TestimonialBox() {
                         intuitive, and tailored to our needs. Their tech prowess and
                         attention to detail elevated our online store.
                     </p>
-                    <img src="/photoicon.png" alt="" className="w-8 h-fit mt-6" />
+                    <img
+                        src="/photoicon.png"
+                        alt=""
+                        className="w-12 h-12 mt-6 rounded-full"
+                    />
                     <p>Manish Paul</p>
                 </div>
             </div>
