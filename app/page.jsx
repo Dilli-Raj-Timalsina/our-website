@@ -7,11 +7,10 @@ import OurClients from "@/components/OurClients";
 import TestimonialBox from "@/components/TestimonialBox";
 import NavBar from "@/components/NavBar";
 import ContactUs from "@/components/ContactUs";
-import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
-        <main className="w-screen h-full relative bg-slate-50 ">
+        <div>
             <img
                 src="/rectangle.png"
                 alt=""
@@ -39,7 +38,6 @@ export default function Home() {
             <OurClients></OurClients>
             <TestimonialBox></TestimonialBox>
             <ContactUs></ContactUs>
-            <Footer></Footer>
-        </main>
+        </div>
     );
 }

@@ -12,7 +12,7 @@ export default function TestimonialBox() {
             <h1 className="text-3xl text-gray-900 font-bold py-8  z-10 md:hidden">
                 Our Client Says !
             </h1>
-            <div className=" flex flex-row justify-center gap-14 items-center z-10 overflow-x-auto hide-scroll-bar font-medium">
+            <div className=" flex flex-col md:flex-row justify-center gap-14 items-center z-10 overflow-x-auto hide-scroll-bar font-medium">
                 <div className=" text-center  bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80 ">
                     <img src="/quote.svg" alt="" className="w-10 h-fit " />
                     <p className="  ">

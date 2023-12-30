@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function NavBar() {
     return (
         <div className="drawer absolute top-0 z-20">
@@ -11,21 +12,13 @@ export default function NavBar() {
                             aria-label="open sidebar"
                             className="btn btn-square btn-ghost"
                         >
-                            <img
-                                src="/hamburgermenu.svg"
-                                alt=""
-                                className="w-8 h-8 "
-                            />
+                            <img src="/hamburgermenu.svg" alt="" className="w-8 h-8 " />
                         </label>
                     </div>
                     <div className="flex-1 px-2 mx-2 navbar-end lg:navbar-start ">
-                        <div className="">
-                            <img
-                                src="/logo3.svg"
-                                alt=""
-                                className="w-20 h-fit"
-                            />
-                        </div>
+                        <Link href={"/"}>
+                            <img src="/logo3.svg" alt="" className="w-20 h-fit" />
+                        </Link>
                     </div>
                     <div className="flex-none hidden lg:block">
                         <ul className=" text-white menu flex gap-6 items-center menu-horizontal">
@@ -34,7 +27,7 @@ export default function NavBar() {
                                 <a>About us</a>
                             </li>
                             <li className=" cursor-pointer">
-                                <a>Referal</a>
+                                <Link href="/referral">Referal</Link>
                             </li>
                             <li className=" cursor-pointer">
                                 <a>Contact Us</a>
