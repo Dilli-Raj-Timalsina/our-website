@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+import { Link } from "react-scroll";
+
 export default function NavBar() {
     return (
         <div className="drawer absolute top-0 z-20">
@@ -16,7 +18,14 @@ export default function NavBar() {
                         </label>
                     </div>
                     <div className="flex-1 px-2 mx-2 navbar-end lg:navbar-start ">
-                        <Link href={"/"}>
+                        <Link
+                            activeClass="active"
+                            to="/"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                        >
                             <img src="/logo3.svg" alt="" className="w-20 h-fit" />
                         </Link>
                     </div>
@@ -30,13 +39,41 @@ export default function NavBar() {
                                 <Link href="/referral">Referal</Link>
                             </li>
                             <li className=" cursor-pointer">
-                                <a>Contact Us</a>
+                                <Link
+                                    activeClass="active"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                >
+                                    Contact Us
+                                </Link>
                             </li>
                             <li className=" cursor-pointer">
-                                <a>Our Services</a>
+                                <Link
+                                    activeClass="active"
+                                    to="services"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                >
+                                    Our Services
+                                </Link>
                             </li>
                             <li className="  cursor-pointer rounded-sm  py-1 px-4 border  border-cyan-600 text-cyan-300 text-center">
-                                <a>Explore Our Services</a>
+                                <Link
+                                    activeClass="active"
+                                    to="services"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer"
+                                >
+                                    Explore Our Services
+                                </Link>
                             </li>
                         </ul>
                     </div>

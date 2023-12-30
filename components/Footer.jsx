@@ -1,8 +1,20 @@
+"use client";
+import { Link } from "react-scroll";
+
 export default function Footer() {
     return (
         <footer className="footer p-10 bg-neutral md:h-80 text-neutral-content">
             <nav className="max-w-80">
-                <img src="/logo3.svg" alt="" className="w-16 h-fit " />
+                <Link
+                    activeClass="active"
+                    to="/"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    <img src="/logo3.svg" alt="" className="w-16 h-fit cursor-pointer" />
+                </Link>
                 <p className="">
                     Lorem ipsum dolor sit amet consectetur. Tellus nibh aliquam posuere
                     mollis ornare at molestie. S

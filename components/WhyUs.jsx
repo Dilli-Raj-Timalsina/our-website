@@ -1,6 +1,6 @@
 export default function WhyUs() {
     return (
-        <div className="w-screen h-full bg-sky-950">
+        <div className="w-screen h-full bg-sky-950 " name="whyus">
             <div className="text-center flex flex-col items-center pt-10 gap-2">
                 <h1 className="text-4xl text-sky-500 font-semibold">Why choose us?</h1>
                 <p className="text-slate-200 text-sm max-w-2xl">

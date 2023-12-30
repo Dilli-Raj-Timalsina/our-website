@@ -1,3 +1,6 @@
+"use client";
+import { Link } from "react-scroll";
+
 export default function YourProbSection() {
     return (
         <section>
@@ -12,7 +15,17 @@ export default function YourProbSection() {
                     bring your idea and accelerate your business with our tech suite .
                 </p>
                 <button className="cursor-pointer   py-3 px-6  text-white text-center bg-cyan-600 w-fit mt-6 text-base">
-                    <a>Explore Our Services</a>
+                    <Link
+                        activeClass="active"
+                        to="whyus"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        className="cursor-pointer"
+                    >
+                        Why Choose Us ?
+                    </Link>
                 </button>
             </div>
             <img

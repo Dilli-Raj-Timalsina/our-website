@@ -18,7 +18,10 @@ export default function Home() {
             />
             <NavBar></NavBar>
             <YourProbSection></YourProbSection>
-            <div className=" md:w-screen h-full  flex flex-col md:flex-row justify-around md:pb-16 pb-10">
+            <div
+                name="services"
+                className=" md:w-screen h-full  flex flex-col md:flex-row justify-around md:pb-16 pb-10"
+            >
                 <img
                     src="/butterfly.svg"
                     alt=""
