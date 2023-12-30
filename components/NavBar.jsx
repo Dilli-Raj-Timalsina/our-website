@@ -18,16 +18,13 @@ export default function NavBar() {
                         </label>
                     </div>
                     <div className="flex-1 px-2 mx-2 navbar-end lg:navbar-start ">
-                        <Link
-                            activeClass="active"
-                            to="/"
-                            spy={true}
-                            smooth={true}
-                            offset={50}
-                            duration={500}
-                        >
-                            <img src="/logo3.svg" alt="" className="w-20 h-fit" />
-                        </Link>
+                        <a href="/">
+                            <img
+                                src="/logo3.svg"
+                                alt=""
+                                className="w-20 h-fit cursor-pointer"
+                            />
+                        </a>
                     </div>
                     <div className="flex-none hidden lg:block">
                         <ul className=" text-white menu flex gap-6 items-center menu-horizontal">
@@ -36,7 +33,7 @@ export default function NavBar() {
                                 <a>About us</a>
                             </li>
                             <li className=" cursor-pointer hover:text-slate-400">
-                                <Link href="/referral">Referal</Link>
+                                <a href="/referral">Referal</a>
                             </li>
                             <li className=" cursor-pointer hover:text-slate-400">
                                 <Link
