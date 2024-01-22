@@ -20,7 +20,7 @@ export default function NavBar() {
                     <div className="flex-1 px-2 mx-2 navbar-end lg:navbar-start ">
                         <a href="/">
                             <img
-                                src="/logo3.svg"
+                                src="/logooursite.jpg"
                                 alt=""
                                 className="w-20 h-fit cursor-pointer"
                             />

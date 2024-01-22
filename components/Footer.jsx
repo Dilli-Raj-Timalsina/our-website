@@ -13,7 +13,11 @@ export default function Footer() {
                     offset={50}
                     duration={500}
                 >
-                    <img src="/logo3.svg" alt="" className="w-16 h-fit cursor-pointer" />
+                    <img
+                        src="/logooursite.jpg"
+                        alt=""
+                        className="w-16 h-fit cursor-pointer"
+                    />
                 </Link>
                 <p className="">
                     Lorem ipsum dolor sit amet consectetur. Tellus nibh aliquam posuere
