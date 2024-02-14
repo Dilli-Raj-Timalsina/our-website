@@ -1,5 +1,6 @@
 "use client";
 import { Link } from "react-scroll";
+import DropDown from "./DropDown";
 
 export default function NavBar() {
     return (
@@ -20,9 +21,9 @@ export default function NavBar() {
                     <div className="flex-1 px-2 mx-2 navbar-end lg:navbar-start ">
                         <a href="/">
                             <img
-                                src="/logooursite.jpg"
+                                src="/logooursite.png"
                                 alt=""
-                                className="w-20 h-fit cursor-pointer"
+                                className="w-24 h-fit cursor-pointer"
                             />
                         </a>
                     </div>
@@ -30,11 +31,15 @@ export default function NavBar() {
                         <ul className=" text-white menu flex gap-6 items-center menu-horizontal">
                             {/* Navbar menu content here */}
                             <li className="cursor-pointer hover:text-slate-400">
-                                <a>About us</a>
+                                <a href="/about">About us</a>
                             </li>
                             <li className=" cursor-pointer hover:text-slate-400">
                                 <a href="/referral">Referal</a>
                             </li>
+                            <li className="cursor-pointer hover:text-slate-400">
+                                <DropDown></DropDown>
+                            </li>
+
                             <li className=" cursor-pointer hover:text-slate-400">
                                 <Link
                                     activeClass="active"
@@ -85,16 +90,25 @@ export default function NavBar() {
                 <ul className="  w-80 min-h-full  bg-base-200 flex flex-col gap-8 text-xl items-center pt-14">
                     {/* Sidebar content here */}
                     <li className="cursor-pointer">
-                        <a>About us</a>
+                        <a href="/about">About us</a>
                     </li>
                     <li className=" cursor-pointer ">
-                        <a>Referal</a>
+                        <a href="/referral">Referal</a>
                     </li>
                     <li className=" cursor-pointer ">
-                        <a>Contact Us</a>
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                        >
+                            Contact Us
+                        </Link>
                     </li>
                     <li className=" cursor-pointer ">
-                        <a>Our Services</a>
+                        <a href="/service-section/webdev">Our Expertise</a>
                     </li>
                 </ul>
             </div>

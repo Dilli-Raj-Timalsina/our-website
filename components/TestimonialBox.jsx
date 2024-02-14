@@ -21,7 +21,11 @@ export default function TestimonialBox() {
                         the outcomes have been tangible.
                     </p>
 
-                    <img src="/mama.jpg" alt="" className="w-12 h-12 mt-6 rounded-full" />
+                    <img
+                        src="/mama.jpg"
+                        alt=""
+                        className="w-24 h-24 mt-4 mb-2 rounded-full"
+                    />
 
                     <p>Ram Shah</p>
                 </div>
@@ -32,8 +36,12 @@ export default function TestimonialBox() {
                         knew I was in good hands. Their team's professionalism and
                         friendliness made the enti ...
                     </p>
-                    <img src="/gopi.jpg" alt="" className="w-12 h-12 mt-6 rounded-full" />
-                    <p>Gopi shah</p>
+                    <img
+                        src="/roland.jpg"
+                        alt=""
+                        className="w-24 h-24 mt-4 mb-2 rounded-full"
+                    />
+                    <p>Roland shah</p>
                 </div>
                 <div className=" text-center bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80">
                     <img src="/quote.svg" alt="" className="w-10 h-fit " />
@@ -43,14 +51,14 @@ export default function TestimonialBox() {
                         attention to detail elevated our online store.
                     </p>
                     <img
-                        src="/photoicon.png"
+                        src="/sudheer_reddy.jpg"
                         alt=""
-                        className="w-12 h-12 mt-6 rounded-full"
+                        className="w-24 h-24 mt-4 mb-2 rounded-full"
                     />
-                    <p>Manish Paul</p>
+                    <p>Sudheer Reddy</p>
                 </div>
             </div>
-            <div className=" flex gap-2 pt-14 items-center justify-center">
+            <div className=" flex gap-2 pt-14 items-center justify-center" name="contact">
                 <div className="w-2 h-2 rounded-full bg-blue-600"></div>
                 <div className="w-2 h-2 rounded-full bg-blue-600"></div>
                 <div className="w-2 h-2 rounded-full bg-blue-600"></div>

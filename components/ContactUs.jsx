@@ -1,9 +1,6 @@
 export default function ContactUs() {
     return (
-        <div
-            name="contact"
-            className="flex md:text-start flex-col md:flex-row w-screen h-full  justify-around bg-sky-950 px-3 py-16"
-        >
+        <div className="flex md:text-start flex-col md:flex-row w-screen h-full  justify-around bg-sky-950 px-3 py-16">
             <div className="md:w-2/5  text-center">
                 <h1 className="text-4xl text-white font-semibold ">Write a message</h1>
                 <form action="" method="post">

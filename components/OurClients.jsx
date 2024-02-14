@@ -11,7 +11,8 @@ export default function OurClients() {
                     alt=""
                     className="w-28 h-fit"
                 />
-                <img src="/logo3.svg" alt="" className="w-28  h-fit" />
+                <img src="/logovstruk.jpg" alt="" className="w-28  h-fit" />
+                <img src="/gama.jpg" alt="" className="w-28  h-fit" />
             </div>
         </div>
     );
