@@ -31,13 +31,17 @@ export default function NavBar() {
                         <ul className=" text-white menu flex gap-6 items-center menu-horizontal">
                             {/* Navbar menu content here */}
                             <li className="cursor-pointer hover:text-slate-400">
-                                <a href="/about">About us</a>
+                                <a href="/">Home</a>
+                            </li>
+
+                            <li className="cursor-pointer hover:text-slate-400">
+                                <DropDown></DropDown>
                             </li>
                             <li className=" cursor-pointer hover:text-slate-400">
                                 <a href="/referral">Referal</a>
                             </li>
                             <li className="cursor-pointer hover:text-slate-400">
-                                <DropDown></DropDown>
+                                <a href="/about">About us</a>
                             </li>
 
                             <li className=" cursor-pointer hover:text-slate-400">
@@ -52,18 +56,7 @@ export default function NavBar() {
                                     Contact Us
                                 </Link>
                             </li>
-                            <li className=" cursor-pointer hover:text-slate-400">
-                                <Link
-                                    activeClass="active"
-                                    to="services"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
-                                >
-                                    Our Services
-                                </Link>
-                            </li>
+
                             <li className="  cursor-pointer rounded-sm  py-1 px-4 border  border-cyan-600 text-cyan-300 text-center hover:border-cyan-400">
                                 <Link
                                     activeClass="active"
@@ -90,10 +83,18 @@ export default function NavBar() {
                 <ul className="  w-80 min-h-full  bg-base-200 flex flex-col gap-8 text-xl items-center pt-14">
                     {/* Sidebar content here */}
                     <li className="cursor-pointer">
-                        <a href="/about">About us</a>
+                        <a href="/">Home</a>
                     </li>
+
+                    <li className=" cursor-pointer ">
+                        <a href="/service-section/webdev">Our Expertise</a>
+                    </li>
+
                     <li className=" cursor-pointer ">
                         <a href="/referral">Referal</a>
+                    </li>
+                    <li className="cursor-pointer">
+                        <a href="/about">About us</a>
                     </li>
                     <li className=" cursor-pointer ">
                         <Link
@@ -106,9 +107,6 @@ export default function NavBar() {
                         >
                             Contact Us
                         </Link>
-                    </li>
-                    <li className=" cursor-pointer ">
-                        <a href="/service-section/webdev">Our Expertise</a>
                     </li>
                 </ul>
             </div>
