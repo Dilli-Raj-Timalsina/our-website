@@ -10,9 +10,9 @@ const PrivacyPolicyPage = () => {
                 className="w-screen h-24 md:h-24 relative z-0 bg-sky-950"
             />
             <NavBar />
-            <div className="max-w-2xl mx-auto px-4 py-8 my-14">
-                <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
-                <p className="mb-4">
+            <div className="max-w-2xl mx-auto px-4 py-8 my-14 ">
+                <h1 className="text-3xl font-bold mb-4 text-gray-950">Privacy Policy</h1>
+                <p className="mb-4 text-gray-800">
                     At Ecom-suite, safeguarding your privacy is paramount to us. We
                     understand the importance of protecting your personal information and
                     ensuring its confidentiality. This Privacy Policy serves as a
@@ -24,8 +24,10 @@ const PrivacyPolicyPage = () => {
                     fundamental to our relationship, and we are dedicated to upholding the
                     highest standards of privacy protection.
                 </p>
-                <h2 className="text-xl font-bold mb-2">Information We Collect</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">
+                    Information We Collect
+                </h2>
+                <p className="mb-4 text-gray-800">
                     In our efforts to provide you with exceptional services, we may gather
                     various types of personal information from you. This may include but
                     is not limited to your name, email address, phone number, mailing
@@ -37,8 +39,10 @@ const PrivacyPolicyPage = () => {
                     collected is handled with the utmost care and in accordance with
                     applicable privacy laws and regulations.
                 </p>
-                <h2 className="text-xl font-bold mb-2">How We Use Your Information</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">
+                    How We Use Your Information
+                </h2>
+                <p className="mb-4 text-gray-800">
                     The information we gather plays a pivotal role in enhancing your
                     experience with Ecom-suite. Primarily, we utilize this data to
                     provide, maintain, and improve the quality of our services. By
@@ -50,8 +54,10 @@ const PrivacyPolicyPage = () => {
                     experience for each user. Your feedback and engagement are integral to
                     our continuous efforts to innovate and optimize our services .
                 </p>
-                <h2 className="text-xl font-bold mb-2">Information Sharing</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">
+                    Information Sharing
+                </h2>
+                <p className="mb-4 text-gray-800">
                     In certain instances, it may be necessary for us to share your
                     information with trusted third-party service providers to facilitate
                     the delivery of our services. These providers may include hosting
@@ -67,26 +73,28 @@ const PrivacyPolicyPage = () => {
                     our rights, property, or safety, or the rights, property, or safety of
                     others.
                 </p>
-                <h2 className="text-xl font-bold mb-2">Security</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">Security</h2>
+                <p className="mb-4 text-gray-800">
                     We take reasonable measures to protect your information from
                     unauthorized access, use, or disclosure. However, no method of
                     transmission over the internet, or method of electronic storage, is
                     100% secure.
                 </p>
-                <h2 className="text-xl font-bold mb-2">Your Choices</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">Your Choices</h2>
+                <p className="mb-4 text-gray-800">
                     You can control the collection and use of your information through
                     your account settings. You may also choose to opt-out of certain
                     communications or services.
                 </p>
-                <h2 className="text-xl font-bold mb-2">Updates to This Policy</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">
+                    Updates to This Policy
+                </h2>
+                <p className="mb-4 text-gray-800">
                     We may update this privacy policy from time to time. We will notify
                     you of any changes by posting the new privacy policy on this page.
                 </p>
-                <h2 className="text-xl font-bold mb-2">Contact Us</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-bold mb-2 text-gray-950">Contact Us</h2>
+                <p className="mb-4 text-gray-800">
                     If you have any questions, concerns, or inquiries regarding our
                     privacy policy or the handling of your personal information, we
                     encourage you to reach out to us. Your feedback is valuable to us, and

@@ -23,7 +23,7 @@ export default function NavBar() {
                             <img
                                 src="/logooursite.png"
                                 alt=""
-                                className="w-28 h-24 cursor-pointer"
+                                className="w-28 h-20 cursor-pointer"
                             />
                         </a>
                     </div>
