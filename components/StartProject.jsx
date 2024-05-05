@@ -14,9 +14,12 @@ export default function StartProject() {
             <div className="text-gray-600 font-medium text-base hidden md:flex">
                 remarkable presence online, you've come to the right place.
             </div>
-            <button className="absolute text-lg font-medium px-10 py-2 bg-sky-400 text-gray-900 text-center rounded-md md:right-10 md:bottom-20 bottom-6 right-16 border border-gray-100">
+            <a
+                className="absolute text-lg font-medium px-10 py-2 bg-sky-400 text-gray-900 text-center rounded-md md:right-10 md:bottom-20 bottom-6 right-16 border border-gray-100"
+                href="/"
+            >
                 Contact Us
-            </button>
+            </a>
         </div>
     );
 }

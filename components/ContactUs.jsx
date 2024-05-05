@@ -57,7 +57,7 @@ export default function ContactUs() {
                         value={formData.from_name}
                         onChange={handleChange}
                         required
-                        className="w-full mt-4 px-3 py-2 outline-none  rounded-sm dark:bg-white"
+                        className="w-full mt-4 px-3 py-2 outline-none  rounded-sm dark:bg-white text-gray-800"
                         placeholder="Your Full Name"
                     />
                     <input
@@ -67,7 +67,7 @@ export default function ContactUs() {
                         value={formData.to_name}
                         required
                         onChange={handleChange}
-                        className="w-full mt-4 px-3 py-2 outline-none rounded-sm dark:bg-white"
+                        className="w-full mt-4 px-3 py-2 outline-none rounded-sm dark:bg-white text-gray-800"
                         placeholder="Your Email"
                     />
                     <textarea
@@ -77,7 +77,7 @@ export default function ContactUs() {
                         required
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full mt-4 px-3 py-2 outline-none rounded-sm dark:bg-white"
+                        className="w-full mt-4 px-3 py-2 outline-none rounded-sm dark:bg-white text-gray-800"
                         placeholder="Write your message..."
                     ></textarea>
 

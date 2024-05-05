@@ -87,7 +87,9 @@ export default function NavBar() {
                     </li>
 
                     <li className=" cursor-pointer ">
-                        <a href="/service-section/webdev">Our Expertise</a>
+                        <a>
+                            <DropDown></DropDown>
+                        </a>
                     </li>
 
                     <li className=" cursor-pointer ">
