@@ -1,6 +1,7 @@
 "use client";
 import { Link } from "react-scroll";
 import DropDown from "./DropDown";
+import DropDown2 from "./DropDown2";
 
 export default function NavBar2() {
     return (
@@ -68,7 +69,9 @@ export default function NavBar2() {
                     </li>
 
                     <li className=" cursor-pointer ">
-                        <a href="/service-section/webdev">Our Expertise</a>
+                        <a>
+                            <DropDown2></DropDown2>
+                        </a>
                     </li>
 
                     <li className=" cursor-pointer ">

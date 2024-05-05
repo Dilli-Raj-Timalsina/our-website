@@ -1,5 +1,6 @@
 "use client";
 import { Link } from "react-scroll";
+import DropDown2 from "./DropDown2";
 import DropDown from "./DropDown";
 
 export default function NavBar() {
@@ -88,7 +89,7 @@ export default function NavBar() {
 
                     <li className=" cursor-pointer ">
                         <a>
-                            <DropDown></DropDown>
+                            <DropDown2></DropDown2>
                         </a>
                     </li>
 
