@@ -107,7 +107,7 @@ export default function ContactUs() {
                 <ul className="flex flex-col gap-4 pt-2">
                     <li className="flex items-center gap-4 ">
                         <img src="/homeicon.svg" alt="" className="w-5 h-5" />
-                        <p className="text-lg text-gray-200">Ecom technology Pvt.ltd</p>
+                        <p className="text-lg text-gray-200">Ecom Suite Pvt.ltd</p>
                     </li>
                     <li className="flex items-center gap-4 ">
                         <img src="/locationicon.svg" alt="" className="w-5 h-5" />
