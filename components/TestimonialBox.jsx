@@ -14,8 +14,8 @@ export default function TestimonialBox() {
             </h1>
             <div className=" flex flex-col md:flex-row justify-center gap-14 items-center z-10 overflow-x-auto hide-scroll-bar font-medium">
                 <div className=" text-center  bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80 ">
-                    <img src="/quote.svg" alt="" className="w-10 h-fit " />
-                    <p className="  ">
+                    <img src="/quote.svg" alt="" className="w-10 h-10 " />
+                    <p className="text-gray-800">
                         Highly Capable Developer Delivers Robust E- commerce Solution .
                         The experience of working with them has been largely positive, and
                         the outcomes have been tangible.
@@ -27,11 +27,11 @@ export default function TestimonialBox() {
                         className="w-24 h-24 mt-4 mb-2 rounded-full"
                     />
 
-                    <p>Ram Shah</p>
+                    <p className="text-gray-800">Ram Shah</p>
                 </div>
                 <div className=" text-center  bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center min-h-80">
-                    <img src="/quote.svg" alt="" className="w-10 h-fit " />
-                    <p className="  ">
+                    <img src="/quote.svg" alt="" className="w-10 h-10 " />
+                    <p className="text-gray-800">
                         A game-changer! From the moment I engaged with their services, I
                         knew I was in good hands. Their team's professionalism and
                         friendliness made the enti ...
@@ -41,11 +41,11 @@ export default function TestimonialBox() {
                         alt=""
                         className="w-24 h-24 mt-4 mb-2 rounded-full"
                     />
-                    <p>Roland shah</p>
+                    <p className="text-gray-800">Roland shah</p>
                 </div>
                 <div className=" text-center bg-white px-8 py-4 shadow-lg flex flex-col w-80 items-center  min-h-80">
-                    <img src="/quote.svg" alt="" className="w-10 h-fit " />
-                    <p className="  ">
+                    <img src="/quote.svg" alt="" className="w-10 h-10 " />
+                    <p className=" text-gray-800 ">
                         Absolutely thrilled with the software company's service! Seamless,
                         intuitive, and tailored to our needs. Their tech prowess and
                         attention to detail elevated our online store.
@@ -55,7 +55,7 @@ export default function TestimonialBox() {
                         alt=""
                         className="w-24 h-24 mt-4 mb-2 rounded-full"
                     />
-                    <p>Sudheer Reddy</p>
+                    <p className="text-gray-800">Sudheer Reddy</p>
                 </div>
             </div>
             <div className=" flex gap-2 pt-14 items-center justify-center" name="contact">

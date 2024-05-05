@@ -4,7 +4,7 @@ export default function Accordin() {
             <img src="/navimage.png" alt="" className="w-1/2 h-fit hidden md:flex" />
             <div>
                 <div className="flex flex-col mx-auto text-start max-w-xl ">
-                    <h2 className="font-bold text-4xl mt-5 tracking-tight ">
+                    <h2 className="font-bold text-4xl mt-5 tracking-tight text-gray-800 ">
                         Why Choose Us?
                     </h2>
                     <p className="text-neutral-500 text-base mt-6 ">
@@ -20,7 +20,7 @@ export default function Accordin() {
                 <div className="grid divide-y divide-neutral-200 bg-white mx-8 my-10 border border-gray-200 rounded-sm">
                     <div className="py-5 px-6 md:px-10">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
                                 <span>Website Developmet</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg
@@ -49,7 +49,7 @@ export default function Accordin() {
                     </div>
                     <div className="py-5 px-6 md:px-10">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
                                 <span> Mobile Application</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg
@@ -76,7 +76,7 @@ export default function Accordin() {
                     </div>
                     <div className="py-5 px-6 md:px-10">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
                                 <span> Software Development</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg
@@ -105,7 +105,7 @@ export default function Accordin() {
                     </div>
                     <div className="py-5 px-6 md:px-10">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
                                 <span>Graphic Design</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg
@@ -133,7 +133,7 @@ export default function Accordin() {
                     </div>
                     <div className="py-5 px-6 md:px-10">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
                                 <span>eCommerce</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg
@@ -162,7 +162,7 @@ export default function Accordin() {
                     </div>
                     <div className="py-5 px-6 md:px-10">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
                                 <span>Digital Marketing</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg

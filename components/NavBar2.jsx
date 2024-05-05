@@ -2,7 +2,7 @@
 import { Link } from "react-scroll";
 import DropDown from "./DropDown";
 
-export default function NavBar() {
+export default function NavBar2() {
     return (
         <div className="drawer absolute top-0 z-20">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -45,30 +45,11 @@ export default function NavBar() {
                             </li>
 
                             <li className=" cursor-pointer hover:text-slate-400">
-                                <Link
-                                    activeClass="active"
-                                    to="contact"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
-                                >
-                                    Contact Us
-                                </Link>
+                                <a href="/">Contact Us</a>
                             </li>
 
                             <li className="  cursor-pointer rounded-sm  py-1 px-4 border  border-cyan-600 text-cyan-300 text-center hover:border-cyan-400">
-                                <Link
-                                    activeClass="active"
-                                    to="services"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
-                                    className="cursor-pointer "
-                                >
-                                    Explore Our Services
-                                </Link>
+                                <a href="/"> Explore Our Services</a>
                             </li>
                         </ul>
                     </div>
@@ -97,16 +78,7 @@ export default function NavBar() {
                         <a href="/about">About us</a>
                     </li>
                     <li className=" cursor-pointer ">
-                        <Link
-                            activeClass="active"
-                            to="contact"
-                            spy={true}
-                            smooth={true}
-                            offset={50}
-                            duration={500}
-                        >
-                            Contact Us
-                        </Link>
+                        <a href="/">Contact Us</a>
                     </li>
                 </ul>
             </div>

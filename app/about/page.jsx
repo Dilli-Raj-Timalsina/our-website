@@ -1,4 +1,4 @@
-import NavBar from "@/components/NavBar";
+import NavBar2 from "@/components/NavBar2";
 import Accordin from "@/components/Accordin";
 import StartProject from "@/components/StartProject";
 import WhoAre from "@/components/WhoAre";
@@ -14,7 +14,7 @@ export default function AboutUs() {
                 className="w-screen h-24 md:h-28 relative z-0 bg-sky-950"
             />
 
-            <NavBar></NavBar>
+            <NavBar2></NavBar2>
             <ContactHero></ContactHero>
 
             <div className="flex md:flex-row md:justify-between md:mx-16 mx-4 flex-col gap-6">

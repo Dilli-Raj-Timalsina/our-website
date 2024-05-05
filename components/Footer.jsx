@@ -16,7 +16,7 @@ export default function Footer() {
                     <img
                         src="/logooursite.png"
                         alt=""
-                        className="w-20 h-fit cursor-pointer"
+                        className="w-20 h-15 cursor-pointer"
                     />
                 </Link>
                 <p className="">

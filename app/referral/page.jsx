@@ -1,4 +1,4 @@
-import NavBar from "@/components/NavBar";
+import NavBar2 from "@/components/NavBar2";
 export default function Referral() {
     return (
         <div className="w-screen h-full bg-slate-50">
@@ -7,7 +7,7 @@ export default function Referral() {
                 alt=""
                 className="w-screen h-24 md:h-28 relative z-0 bg-sky-950"
             />
-            <NavBar></NavBar>
+            <NavBar2></NavBar2>
 
             <form
                 action=""
@@ -32,7 +32,7 @@ export default function Referral() {
                             id="firstName"
                             name="firstName"
                             required
-                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="First Name"
                         />
                         <input
@@ -40,7 +40,7 @@ export default function Referral() {
                             id="lastName"
                             name="lastName"
                             required
-                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="Last Name"
                         />
                     </div>
@@ -50,7 +50,7 @@ export default function Referral() {
                             id="email"
                             name="email"
                             required
-                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="Email Address"
                         />
                         <input
@@ -58,7 +58,7 @@ export default function Referral() {
                             id="phone"
                             name="phone"
                             required
-                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="Your Phone"
                         />
                     </div>
@@ -73,7 +73,7 @@ export default function Referral() {
                             id="refereFirstName"
                             name="refereSecondName"
                             required
-                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="First Name(Referee)"
                         />
                         <input
@@ -81,7 +81,7 @@ export default function Referral() {
                             id="refereeLastName"
                             name="refereeLastName"
                             required
-                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full  px-7 py-3 outline-none  rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="Last Name(Referee)"
                         />
                     </div>
@@ -91,7 +91,7 @@ export default function Referral() {
                             id="refereeEmail"
                             name="refereeEmail"
                             required
-                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="Email Address(Refree)"
                         />
                         <input
@@ -99,7 +99,7 @@ export default function Referral() {
                             id="refereePhone"
                             name="refereePhone"
                             required
-                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg"
+                            className="w-full px-7 py-3 outline-none rounded-sm border border-gray-200 hover:shadow-lg dark:bg-white"
                             placeholder="Your Phone(Referee)"
                         />
                     </div>
