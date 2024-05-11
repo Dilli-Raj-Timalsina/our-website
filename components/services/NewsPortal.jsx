@@ -98,11 +98,9 @@ export default function NewsPortal() {
                             </div>
                         </div>
                         <img
-                            src="https://media.istockphoto.com/id/1477858506/photo/news-online-in-phone-reading-newspaper-from-website-digital-publication-and-magazine-mockup.jpg?s=1024x1024&w=is&k=20&c=AlvYzHJjpG2COQZOj0zU1GaG_gt8CT-MnSQ236tUQvg="
+                            src="/news.png"
                             alt="Product screenshot"
-                            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                            width="2432"
-                            height="1442"
+                            className="w-[48rem] h-[32rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mr-1 md:mr-0"
                         />
                     </div>
                 </div>

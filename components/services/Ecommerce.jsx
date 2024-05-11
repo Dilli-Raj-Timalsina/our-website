@@ -39,7 +39,7 @@ export default function Ecommerce() {
                                                 <path d="M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z"></path>
                                                 <path d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z"></path>
                                             </svg>
-                                            Template driven
+                                            Template driven :
                                         </dt>
                                         <dd className="inline">
                                             Inspired by Sendgrid, Mailchimp, and Postmark,
@@ -62,7 +62,7 @@ export default function Ecommerce() {
                                                     clipRule="evenodd"
                                                 ></path>
                                             </svg>
-                                            Simple, REST
+                                            Simple, REST :
                                         </dt>
                                         <dd className="inline">
                                             A simple REST API that allows you to create,
@@ -96,11 +96,9 @@ export default function Ecommerce() {
                             </div>
                         </div>
                         <img
-                            src="https://media.istockphoto.com/id/1433293137/vector/purple-tone-online-shopping-app-template-on-web-browsers-overlapping-2-tabs-and-all.jpg?s=1024x1024&w=is&k=20&c=pv70Kk1-4OIgBn48qP3vB4AL1ktZFNGfMqDlB6_neMk="
+                            src="/ecommercepic.jpeg"
                             alt="Product screenshot"
-                            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                            width="2432"
-                            height="1442"
+                            className="w-[48rem] h-[32rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mr-1 md:mr-0 "
                         />
                     </div>
                 </div>
