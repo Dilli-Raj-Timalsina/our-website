@@ -19,7 +19,11 @@ export default function FindOut() {
             <p className=" text-base text-gray-500 max-w-lg">
                 Immerse yourself in our world of creativity, where our talented team
                 crafts eye-catching graphics and propels your brand into the digital
-                spotlight. Elevate your online presence with our{" "}
+                spotlight. Elevate your online presence with our Our dedicated team
+                thrives on innovation and artistry, ensuring every project is a unique
+                masterpiece that stands out in the crowded digital landscape. Let us
+                transform your vision into reality with cutting-edge designs and strategic
+                branding solutions that resonate with your target market.{" "}
                 <span className="font-semibold text-blue-400">digital marketing</span> and{" "}
                 <span className="font-semibold text-blue-400">SEO </span>
                 expertise, tailored for{" "}
@@ -28,7 +32,7 @@ export default function FindOut() {
                 <span className="font-semibold text-blue-400">e-commerce</span> domains.
             </p>
             <br />
-            <div className="relative md:mt-20 mt-10 ">
+            {/* <div className="relative md:mt-20 mt-10 ">
                 <img
                     src="/rectangle30.png"
                     alt="rectangle image"
@@ -52,7 +56,7 @@ export default function FindOut() {
                         <div className=" text-slate-400">Satisfied Clients</div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -16,10 +16,10 @@ export default function ContactUs() {
     const sendEmail = (templateParams) => {
         emailjs
             .send(
-                "default_service",
-                "template_d5nvhbu",
+                "service_7uc5hfd",
+                "template_m25scvh",
                 templateParams,
-                "pwwGIhv0Mp6iAT3uD"
+                "KqMBE0yq0Hm224_3M"
             )
             .then(
                 (response) => {
