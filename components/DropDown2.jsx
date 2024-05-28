@@ -136,6 +136,21 @@ export default function DropDown2() {
                                 </a>
                             )}
                         </Menu.Item>
+                        <Menu.Item>
+                            {({ active }) => (
+                                <a
+                                    href="/service-section/video-editing"
+                                    className={classNames(
+                                        active
+                                            ? "bg-gray-100 text-gray-900"
+                                            : "text-gray-700",
+                                        "block px-4 py-2 text-sm"
+                                    )}
+                                >
+                                    Video Editing and Graphics
+                                </a>
+                            )}
+                        </Menu.Item>
                     </div>
                 </Menu.Items>
             </Transition>

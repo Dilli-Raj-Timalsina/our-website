@@ -5,6 +5,7 @@ import DigitalMarketing from "@/components/services/DigitalMarketing";
 import Branding from "@/components/services/Branding";
 import NewsPortal from "@/components/services/NewsPortal";
 import Resturant from "@/components/services/Resturant";
+import VideoEditing from "@/components/services/VideoEditing";
 
 export default function ServiceSection({ params }) {
     const slug = params.slug;
@@ -21,6 +22,8 @@ export default function ServiceSection({ params }) {
         return <Branding></Branding>;
     } else if (slug == "newsportal") {
         return <NewsPortal></NewsPortal>;
+    } else if (slug == "video-editing") {
+        return <VideoEditing></VideoEditing>;
     } else {
         return <Resturant></Resturant>;
     }
