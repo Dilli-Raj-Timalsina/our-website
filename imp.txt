@@ -1,2 +1,3 @@
-ip : 62.169.1.208
+ip : 62.169.16.208
 pass : Rohit@gopi
+user: root
