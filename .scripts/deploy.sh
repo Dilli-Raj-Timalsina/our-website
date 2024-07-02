@@ -8,10 +8,14 @@ echo "Deployment started of ecom-suites website ...."#!/bin/bash
 git pull origin main
 echo "New changes copied to server !"
 
+current_dir=$(pwd)
+echo "Current Directory: $current_dir"
+
 echo "Installing Dependencies..."
-npm install --yes
+npm install 
 
 echo "Creating Production Build..."
+echo "running build command ..."
 npm run build
 
 echo "PM2 Reload"
