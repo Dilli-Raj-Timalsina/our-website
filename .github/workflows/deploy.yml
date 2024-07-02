@@ -1,4 +1,4 @@
-name: Ecom suite cicd pipeline
+name: Ecom suite cicd pipeline !
 
 # Trigger the workflow on push and
 # pull request events on the main branch
