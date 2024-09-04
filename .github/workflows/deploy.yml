@@ -23,4 +23,4 @@ jobs:
               run: npm install
 
             - name: Run Linting Check
-              run: npm run lint:check
+              run: npm run lint
