@@ -10,6 +10,7 @@ import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
     return (
+        //This is a test ci comment
         <div>
             <img
                 src="/rectangle.png"
@@ -30,6 +31,7 @@ export default function Home() {
                 <h1 className="text-2xl text-gray-800 font-bold  mt-10 mb-10 text-center md:hidden">
                     Our Services
                 </h1>
+
                 <ServiceCard></ServiceCard>
                 <FindOut></FindOut>
             </div>
