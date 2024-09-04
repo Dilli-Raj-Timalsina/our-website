@@ -1,21 +1,26 @@
-name: Linting and Formating on PR
+name: Linting and Formatting on PR
+
 on:
     pull_request:
         branches:
             - "**"
- jobs:
-     Continuous-Integretion:
-         name: Perform linting, formatting on the applicaiton
-         runs-on: ubuntu-latest
-         steps:
-             - name: Checkout the Repository
-               uses: actions/checkout@v3
-             - name: Install nodejs and configure other nodejs depenency
-               uses: actions/setup-node@v3
-                  with:
-                      node-version: "20"
 
-             - name: Install Dependencies
-               run: npm install
-             - name: Run Linting Check
-               run: npm run lint:check
+jobs:
+    Continuous-Integration:
+        name: Perform linting, formatting on the application
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout the Repository
+              uses: actions/checkout@v3
+
+            - name: Install Node.js and dependencies
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "20"
+
+            - name: Install Dependencies
+              run: npm install
+
+            - name: Run Linting Check
+              run: npm run lint:check
